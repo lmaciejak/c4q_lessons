@@ -1,0 +1,31 @@
+rl.on('line', function(input) {
+   clear()
+    var inputArr = input.split(' ')
+    var result = inputArr[1]
+    var newArr = []
+    var counterAdd = 0
+    var counterMin = 0
+    var counterMul = 1
+    var counterDiv = 0
+    var toNum = Number(inputArr[i])
+        for (var i = 1; i < inputArr.length; i++) {
+               // var toNum = Number(inputArr[i])
+                 if (inputArr[0] === '+') {
+                    counterAdd += toNum[i]
+                    //console.log(counterAdd)
+                } else if (inputArr[0] === '-') {
+                    result = result - inputArr[i]
+                } else if (inputArr[0] === '*') {
+                    counterMul *= inputArr[i]
+                } else if (inputArr[0] === '/') {
+                    counterDiv /= inputArr[i]
+                } else if (isNaN[toNum[i]]) {
+                    //  console.log("Enter a valid input.")
+                }else {
+                    var result = "Invalid input."
+                }
+            }                     console.log(counterAdd)
+    //    console.log(result)
+    })
+//   console.log("Input an Operation (+,-,*,/) and numbers separated by spaces.")
+    
