@@ -1,0 +1,36 @@
+html {
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+  
+  /* Your CSS below here */
+  .coolbox {
+      width: 12em; 
+      height: 4.7em;
+      background-color: red; 
+      color: red; 
+      text-shadow: 0.7px 0.7px #0a0000;
+      line-height: 3.33em;
+      text-align: center; 
+      border: 1px rgb(102, 13, 13) solid; 
+      border-radius: 6px;
+      font-size: 1.0625rem; 
+  }
+
+.shadow2{ 
+    box-shadow: inset 2px 2px 4px rgb(230, 220, 220), inset -2px -2px 4px  rgba(24, 23, 23, 0.281), 2px 2px 4px rgba(0, 0, 0, 0.651);
+}
+
+  .gradient {
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0) 30%);
+  } 
+
+  /*#gradient {
+    background:linear-gradient(135deg, rgba(255, 0, 0, 0.8) 30%, red);
+} */
+
+
+/*
+  .gradient {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 30%,  rgba(0, 0, 0, 0.2));
+  } */
