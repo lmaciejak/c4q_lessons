@@ -1,0 +1,43 @@
+/* font-family: 'Fascinate Inline', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Share', cursive; */
+
+h1 { 
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 50px; 
+}
+
+form :nth-child(3) { 
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 30px; 
+}
+
+form :nth-child(8) { 
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 30px; 
+}
+
+.fieldset-width {
+    width: 30em; 
+}
+/* body { 
+    background-color: rgba(44, 238, 228, 0.884)
+} */
+
+body { 
+    font-family: 'Share', cursive;
+}
+
+.textarea-border { 
+    border-color: rgba(0, 0, 255, 0); 
+}
+
+textarea {
+    resize: none;
+ }
+
+ .fieldmargin { 
+     margin: 10px; 
+ }
+
