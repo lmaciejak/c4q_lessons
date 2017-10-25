@@ -1,0 +1,41 @@
+ #navigation {
+     margin-left: -4.1%; 
+    }
+
+    #navigation ul {
+     
+    } 
+
+    #navigation li {
+        display: inline;
+        background-color: rgba(172, 171, 171, 0.966); 
+        padding: 0.3em; 
+        font-size: 0.7em; 
+    }
+        
+    #case {
+        background-color: rgba(177, 177, 177, 0.521); 
+        width: 27em; 
+        margin-top: -1.6%;
+        padding: 0.1em; 
+    }
+        
+    #footer {
+        background-color:  rgba(172, 171, 171, 0.966); 
+        width: 27.2em; 
+        margin-top: -1em; 
+        padding-bottom: 1.1em;
+        
+    }
+        
+    #footer ul {
+       padding: 0.05em;  
+    }
+        
+    #footer  li {
+        display: inline;
+        padding-left: 5px; 
+    
+    }
+
+   
