@@ -1,0 +1,46 @@
+#sidebar { 
+    position: absolute; 
+    width: 20%; 
+    height: 100%; 
+    background-color: rgba(163, 221, 180, 0.164); 
+    padding-top: 40px; 
+
+}
+
+#main { 
+    margin-left: 21%;
+    padding: 0 100px;
+    
+     
+}
+@media print { 
+    #sidebar { 
+        display: none;
+    }
+    #main { 
+        margin: 0%; 
+    }
+    #main :nth-child(1) { 
+        padding-right: 100px; 
+    }
+}
+
+
+
+h4 { 
+    font-size: 30px; 
+}
+
+h1, h4, body { 
+    font-family: Arial; 
+}
+
+#main :nth-child(1) { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, #main { 
+    text-align: center; 
+}

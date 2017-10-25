@@ -1,0 +1,35 @@
+#sidebar { 
+    position: absolute; 
+    width: 20%; 
+    height: 100%; 
+    background-color: rgba(163, 221, 180, 0.164); 
+    padding-top: 40px; 
+}
+
+#main { 
+    margin-right: auto;
+    margin-left: 21%;
+    
+     
+}
+@media print { 
+    sidebar: none;
+}
+
+/* #main2 { 
+    margin: 0 auto;
+} */
+
+
+h4 { 
+    font-size: 30px; 
+}
+
+h1, h4, body { 
+    font-family: Arial; 
+}
+
+#main :nth-child(1) { 
+    padding-left: 100px;
+    padding-right: 100px; 
+}
