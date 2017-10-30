@@ -1,0 +1,18 @@
+
+h1, p { 
+    border-width: 3px; 
+    border-color: black; 
+    border-style: solid; 
+}
+
+#image{ 
+    border: 2px solid black;
+    width: 30%; 
+    float:left; 
+    overflow: scroll;
+}
+
+#paragraph { 
+    float: left;
+    width: 30%;  
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1 id="main-text"> You typed _____ </h1>
+
+
+
+    <script type="text/javascript">
+        function changeHeader() {
+            let headText = document.getElementById("main-text");
+            let newText = window.prompt("enter text!");
+            headText.innerHTML += newText + " ";
+        }
+
+
+        setInterval(changeHeader, 500)
+
+    // while (true) {let input = window.prompt("Enter a string")
+
+
+    // Document.getElementByID(‘navbar’) 
+    //   window.alert( h1.innerHTML += input ) }
+    </script>
+</body>
+
+</html>

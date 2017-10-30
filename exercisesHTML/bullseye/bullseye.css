@@ -1,0 +1,41 @@
+body :nth-child(1) { 
+    width: 50%; 
+    position: fixed; 
+    z-index: 1; 
+}
+
+body :nth-child(2) { 
+    width: 45%; 
+    z-index: 2; 
+    position:fixed; 
+    margin:35px; 
+}
+
+body :nth-child(3) { 
+    width: 40%; 
+    z-index: 3; 
+    position: fixed; 
+    margin:70px; 
+}
+
+body :nth-child(4) { 
+    width: 35%; 
+    z-index: 4; 
+    position: fixed; 
+    margin: 105px; 
+}
+
+body :nth-child(5) { 
+    width: 30%; 
+    z-index: 5; 
+    position: fixed; 
+    margin: 140px; 
+}
+
+body :nth-child(6) { 
+    width: 25%; 
+    z-index: 6; 
+    position: fixed; 
+    margin: 175px; 
+}
+

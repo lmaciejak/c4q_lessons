@@ -1,0 +1,29 @@
+a, a:link { 
+    color: blue; 
+}
+
+a:visited { 
+    color: grey; 
+}
+
+a:hover, a:active { 
+    color: green; 
+    font-weight: bold; 
+}
+
+h1 + p::first-letter, 
+h2 + p::first-letter { 
+font-size: 3em; 
+float: left; 
+margin-right: 0.2em; 
+margin-top: -0.15em; 
+margin-bottom: -0.1em; 
+}
+
+
+img { 
+    border: 5px solid rgba(0, 0, 0, 0)
+}
+img:hover { 
+    border: 5px solid orange; 
+}
