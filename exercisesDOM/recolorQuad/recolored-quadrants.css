@@ -1,0 +1,35 @@
+#topLeft { 
+    width: 706px; 
+    height: 397px; 
+    /* background-color: blue; */
+    position: absolute; 
+}
+
+#topRight { 
+    width: 718px; 
+    height:397px; 
+    /* background-color: red; */
+    position: absolute; 
+    margin-left:49%; 
+
+
+}
+
+#bottomLeft { 
+    width: 706px; 
+    height: 397px; 
+    /* background-color: green;  */
+    position: absolute; 
+    margin-top: 27.5%; 
+
+}
+
+#bottomRight { 
+    width: 718px; 
+    height: 397px; 
+    /* background-color: yellow;  */
+    position: absolute; 
+    margin-top: 27.5%; 
+    margin-left: 49%; 
+
+}
