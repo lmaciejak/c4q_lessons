@@ -21,10 +21,43 @@
 // })
 
 document.addEventListener("click",function(event){
-    var elem = event.target
-    elem.style.backgroundColor = "white"
-    var color = elem.style.backgroundColor 
+    // var elem = event.target
+    // var color = elem.style.backgroundColor
 
-     (color === 'white') ? 'black': 'white';
+    console.log(event)
+    
+    // var bgColor = elem.backgroundColor
+
+    
+    // if(elem.backgroundColor) {
+    //     if(elem.backgroundColor === 'white'){
+    //         elem.backgroundColor = 'black'
+    //     } else {
+    //         elem.backgroundColor = 'white'
+    //     }
+    // } else {
+    //     elem.backgroundColor = 'black'
+    // }
+
+
+
+
+
+    //var color = elem.backgroundColor
+
+    
+    var elem = event.target.style
+
+    if(!elem.backgroundColor){
+        elem.backgroundColor = 'black'
+    } else if (elem.backgroundColor === 'black'){
+        elem.backgroundColor = 'white'
+    } else {
+        elem.backgroundColor = 'black'
+    }    
+
+    // elem.backgroundColor
+    // ? elem.backgroundColor ="white" 
+    // : elem.backgroundColor = "black";
     
 })
