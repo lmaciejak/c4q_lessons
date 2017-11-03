@@ -1,0 +1,27 @@
+
+
+    var blurbKey = 'allTheBlurb'; 
+    
+    var blurb = document.querySelector('#blurb'); 
+    blurb.addEventListener('input', function(event) { 
+        window.localStorage.setItem(blurbKey, event.target.value)
+    }); 
+
+    var blurb = document.querySelector('#blurb'); 
+//last line goes here 
+
+
+        var input = document.querySelector('#blurb'); 
+        var allTheBlurb = document.querySelector('#alltheblurb'); 
+        allTheBlurb.innerHTML += ' ' + input.value; 
+        window.localStorage.setItem(blurbKey, allTheBlurb.innerHTML)
+        input.value = ''; 
+    }); 
+    
+    var allTheBlurb = document.querySelector('#alltheblurb')
+    allTheBlurb.innerHTML = window.localStorage.getItem(blurbKey); 
+
+
+
+    
+    
