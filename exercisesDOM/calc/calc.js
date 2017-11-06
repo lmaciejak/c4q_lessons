@@ -17,60 +17,29 @@ function calculate(mathExp) {
   }
 }
 
-
-// document.addEventListener('DOMContentLoaded', function() {
-//   outputDiv = document.getElementById('output');
-
-//   document.addEventListener('click', function(event) {
-//     var elementId = event.target.id;
-//     var rows = document.querySelectorAll('div.row')
-
-//       if (document.querySelectorAll('div.row') && ro)
-//     // for (var i = 0; i < rows.length; i++) { 
-
-//         outputDiv.innerText += event.target.innerText
-//     }
-//     outputDiv.innerText += elementId;
-//     // logging the element id for debug purposes
-//     console.log(elementId)
-
-//   })
-// })
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
   outputDiv = document.getElementById('output');
 
   console.log(event.target.innerHTML)
   document.addEventListener('click', function (event) {
     var elementInner = event.target.innerText;
-    
+    var lastCharacter = outputDiv.innerText[outputDiv.innerText.length - 1]
+
     if (elementInner === '=') {
       outputDiv.innerText = calculate(outputDiv.innerText)
     } else if (elementInner === 'C') {
       outputDiv.innerText = ''
-    }
-    else if (elementInner === '7 8 9 +' ||
-      elementInner === '4 5 6 -' ||
-      elementInner === '1 2 3 *' ||
-      elementInner === 'C 0 = /') {
-      outputDiv.innerText += '';
-    }
-    else {
+    } else if (elementInner === lastCharacter) {
+      outputDiv.innerText += ''
+    } else if (elementInner === '7 8 9 +' ||
+              elementInner === '4 5 6 -' ||
+              elementInner === '1 2 3 *' ||
+              elementInner === 'C 0 = /') {
+              outputDiv.innerText += '';
+    } else {
       outputDiv.innerText += elementInner;
     }
     // logging the element id for debug purposes
     console.log(elementInner)
-
-  
   })
-
 })
-
-
-// var lastOutput = outputDiv.innerText[outputDiv.innerText.length-1]
-
-// console.log(lastOutput)
-// if(elementInner === lastOutput && elementInner === '+') {
-//   outputDiv.innerText += ''}
